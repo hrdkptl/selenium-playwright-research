@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRS Automation Test Suite">
+
+	<!-- <test name="PlaywrightTests"> <packages> <package name="playwright.*" 
+		/> </packages> </test> -->
+
+	<test name="AllSeleniumTests">
+		<packages>
+			<package name="selenium.*" />
+		</packages>
+	</test>
+</suite>

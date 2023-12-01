@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRS Automation Test Suite">
+	<test name="PlaywrightTests">
+		<classes>
+			<class name="playwright.GoogleSearchTest" />
+			<class name="playwright.CRSScoreCalculator" />
+		</classes>
+	</test>
+	<test name="SeleniumTests">
+		<classes>
+			<class name="selenium.GoogleSearchTest" />
+			<class name="selenium.CRSScoreCalculator" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRS Automation Test Suite">
+	<test name="PlaywrightTests">
+		<classes>
+			<class name="playwright.GoogleSearchTest" />
+		</classes>
+	</test>
+	<test name="SeleniumTests">
+		<classes>
+			<class name="selenium.GoogleSearchTest" />
+		</classes>
+	</test>
+</suite>
