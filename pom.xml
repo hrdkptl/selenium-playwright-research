@@ -40,6 +40,13 @@
 			<artifactId>json</artifactId>
 			<version>20220320</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.deque.html.axe-core/playwright -->
+		<dependency>
+			<groupId>com.deque.html.axe-core</groupId>
+			<artifactId>playwright</artifactId>
+			<version>4.8.0</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
