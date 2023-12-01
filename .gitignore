@@ -1,0 +1,65 @@
+*/resources/browsers/
+*/resources/drivers/
+
+# Compiled classes and binaries
+/target/
+/bin/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# IDE - IntelliJ IDEA (in case you use it in the future)
+.idea/
+*.iml
+*.iws
+
+# Logs and databases
+*.log
+*.ldb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Maven wrapper (if used)
+/.mvn/wrapper/mvnw
+/.mvn/wrapper/MavenWrapperDownloader.java
+/.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
+
+# Other common ignore files
+*.bak
+*.swp
+*.swo
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unit test reports
+TEST-*.xml
+test-output/
+
+# JetBrains Rider
+.idea/
+
+# User-specific files
+.vscode/
+/.apt_generated/
