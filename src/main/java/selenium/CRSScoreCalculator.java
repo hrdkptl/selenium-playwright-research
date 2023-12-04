@@ -82,9 +82,9 @@ public class CRSScoreCalculator extends Parent {
     }
     
     @AfterMethod
-    public void tearDown() {
+    public void closePage() {
         if (driver != null) {
-            driver.close();
+        	driver.close();
         }
     }
 }

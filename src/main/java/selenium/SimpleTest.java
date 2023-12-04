@@ -2,12 +2,13 @@ package selenium;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class SimpleTest extends Parent {
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() {
     	super.setUp();
         driver.get("http://the-internet.herokuapp.com");
@@ -20,9 +21,9 @@ public class SimpleTest extends Parent {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void closePage() {
         if (driver != null) {
-            driver.close();
+        	driver.close();
         }
     }
 }

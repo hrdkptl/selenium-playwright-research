@@ -1,0 +1,305 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<test name="Iteration 1">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 2">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 3">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 4">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 5">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 6">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 7">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 8">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 9">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 10">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+<!-- 	<test name="Iteration 11">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 12">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 13">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 14">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 15">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 16">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 17">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 18">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 19">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+	<test name="Iteration 20">
+		<packages>
+			<package name="playwright.*" />
+			<package name="selenium.*" />
+		</packages>
+	</test>
+    <test name="Iteration 21">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 22">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 23">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 24">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 25">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test> -->
+   <!--  <test name="Iteration 26">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 27">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 28">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 29">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 30">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 31">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 32">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 33">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 34">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 35">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 36">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 37">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 38">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 39">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 40">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 41">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 42">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 43">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 44">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 45">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 46">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 47">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 48">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 49">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test>
+    <test name="Iteration 50">
+        <packages>
+            <package name="playwright.*"/>
+            <package name="selenium.*"/>
+        </packages>
+    </test> -->
+
+
+</suite>

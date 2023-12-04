@@ -8,12 +8,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class SimpleLoginTest extends Parent {
 
-    @BeforeTest
+    @BeforeMethod
     public void setUp() {
     	super.setUp();
         driver.get("http://the-internet.herokuapp.com/login");
@@ -40,9 +41,9 @@ public class SimpleLoginTest extends Parent {
     }
     
     @AfterMethod
-    public void tearDown() {
+    public void closePage() {
         if (driver != null) {
-            driver.close();
+        	driver.close();
         }
     }
 }

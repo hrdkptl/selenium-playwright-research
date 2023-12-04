@@ -51,8 +51,6 @@ public class Parent {
         default:
             throw new IllegalArgumentException("Unsupported browser type: " + browserType);
     	}
-    	
-
     }
 
     @AfterTest
