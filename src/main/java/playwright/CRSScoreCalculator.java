@@ -1,9 +1,10 @@
 package playwright;
 
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import utils.AccessibilityTester;
 
 public class CRSScoreCalculator extends Parent {
     
@@ -16,6 +17,8 @@ public class CRSScoreCalculator extends Parent {
 
     @Test
     public void calculateCRSScore() {
+    	AccessibilityTester.checkAccessibility(page, this.getClass().getName(), Thread.currentThread().getStackTrace()[1].getMethodName());
+    	
         // Fill out the form with example data
         page.selectOption("#q1", "F"); // Single
         page.selectOption("#q3", "M"); // 29 years of age

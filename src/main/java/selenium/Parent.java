@@ -10,16 +10,17 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-public class Parent {
+import utils.Browser;
+
+class Parent {
 
     protected WebDriver driver;
 
     @BeforeTest
     public void setUp() {
-    	String browserType = "EDGE";
     	
-    	switch (browserType) {
-        case "CHROME":
+    	switch (Browser.getCurrentBrowser()) {
+        case CHROME:
             System.setProperty("webdriver.chrome.driver", "C:\\selenium-automation\\drivers\\chrome\\chromedriver119.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--remote-allow-origins=*");
@@ -28,7 +29,7 @@ public class Parent {
 
             driver = new ChromeDriver(chromeOptions);
             break;
-        case "EDGE":
+        case MSEDGE:
             System.setProperty("webdriver.edge.driver", "C:\\selenium-automation\\drivers\\edge\\msedgedriver119.0.2151.44.exe");
 
             EdgeOptions edgeOptions = new EdgeOptions();
@@ -38,7 +39,7 @@ public class Parent {
 
             driver = new EdgeDriver(edgeOptions);
             break;
-        case "FIREFOX":
+        case FIREFOX:
             System.setProperty("webdriver.gecko.driver", "C:\\selenium-automation\\drivers\\firefox\\geckodriver0.33.0.exe");
             // Firefox does not use a binary system property like Chrome so does not need browserPath
 
@@ -49,7 +50,7 @@ public class Parent {
             driver = new FirefoxDriver(options);
             break;
         default:
-            throw new IllegalArgumentException("Unsupported browser type: " + browserType);
+            throw new IllegalArgumentException("Unsupported browser type.");
     	}
     }
 

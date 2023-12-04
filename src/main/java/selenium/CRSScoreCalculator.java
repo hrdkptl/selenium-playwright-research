@@ -8,6 +8,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import utils.AccessibilityTester;
+
 public class CRSScoreCalculator extends Parent {
 
     @BeforeTest
@@ -18,7 +20,8 @@ public class CRSScoreCalculator extends Parent {
 
     @Test
     public void calculateCRSScore() throws InterruptedException {
-
+    	AccessibilityTester.checkAccessibility(driver, this.getClass().getName(), Thread.currentThread().getStackTrace()[1].getMethodName());
+    	
         // Fill out the form with example data
         // Marital Status
         new Select(driver.findElement(By.id("q1"))).selectByValue("F"); // Single

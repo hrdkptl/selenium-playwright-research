@@ -5,6 +5,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import utils.AccessibilityTester;
+
 public class SimpleTest extends Parent {
 
     @BeforeTest
@@ -16,6 +18,8 @@ public class SimpleTest extends Parent {
 
     @Test
     public void checkPageTitle() {
+    	AccessibilityTester.checkAccessibility(page, this.getClass().getName(), Thread.currentThread().getStackTrace()[1].getMethodName());
+    	
         String title = page.title();
         Assert.assertEquals(title, "The Internet");
     }
